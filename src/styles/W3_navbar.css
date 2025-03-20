@@ -1,0 +1,11 @@
+.W3_logo{
+    width: 170px;
+}
+.items a{
+    font-size: 1.06rem;
+    font-weight: 500;
+ 
+}
+.items a:hover {
+    border-bottom: 2px solid blue;
+}

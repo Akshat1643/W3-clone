@@ -1,0 +1,36 @@
+.hero_bg{
+    background-image: url("../../public/homepage-banner-acb5e94c6d931c239cf4306f66bb37f0df8f6c724ffd43b4b9ab7cbc4ce22b8b.webp");
+    background-size: cover;
+    background-position: center;
+    
+}
+.test{
+    height: 50vh;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.hero_left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.hero_left h1{
+    font-weight: 600;
+}
+.hero_image {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+  }
+.hero_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}  
+.hero_footer img {
+    width: 6rem;
+}

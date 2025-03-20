@@ -1,0 +1,8 @@
+.count{
+    line-height: 60px;
+    color: #cea729;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
