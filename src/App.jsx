@@ -10,6 +10,8 @@ import Blog from './components/Blog'
 import Connect from './components/Connect'
 import Start from './components/Start'
 import Contactinfo from './components/Contactinfo'
+import Fotter from './components/Fotter'
+import Footerlast from './components/Footerlast'
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 const App = () => {
@@ -28,6 +30,8 @@ const App = () => {
       <Connect/>
       <Start/>
       <Contactinfo/>
+      <Fotter/>
+      <Footerlast/>
     </div>
   )
 }
