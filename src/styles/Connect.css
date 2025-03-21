@@ -1,0 +1,21 @@
+.connect_left{
+    width: 50%;
+}
+.connect_left img{
+    width: 90%;
+    
+}
+.connect_right{
+    width: 50%;
+}
+.connect_form_input input{
+    width:100%;
+    height: 180px;
+    
+}
+.full_name{
+    width: 50%;
+}
+.full_name input {
+    width: 100%;
+}

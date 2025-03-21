@@ -6,6 +6,8 @@ import Explore from './components/Explore'
 import Services from './components/Services'
 import Projects from './components/projects'
 import Clients from './components/Clients'
+import Blog from './components/Blog'
+import Connect from './components/Connect'
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 const App = () => {
@@ -20,6 +22,8 @@ const App = () => {
       <Services/>
       <Projects/>
       <Clients/>
+      <Blog/>
+      <Connect/>
     </div>
   )
 }
