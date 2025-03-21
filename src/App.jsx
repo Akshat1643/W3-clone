@@ -8,6 +8,8 @@ import Projects from './components/Projects'
 import Clients from './components/Clients'
 import Blog from './components/Blog'
 import Connect from './components/Connect'
+import Start from './components/Start'
+import Contactinfo from './components/Contactinfo'
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 const App = () => {
@@ -24,6 +26,8 @@ const App = () => {
       <Clients/>
       <Blog/>
       <Connect/>
+      <Start/>
+      <Contactinfo/>
     </div>
   )
 }

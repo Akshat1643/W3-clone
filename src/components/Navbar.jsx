@@ -14,10 +14,10 @@ function W3_navbar() {
   return (
     <section className=' container'>
         <Navbar expand="lg "  >
-      <Container>
+      <Container className='d-flex justify-content-between'>
         <img className='W3_logo' src="https://www.w3villa.com/production/assets/logo-1-0cf06f8aef88f5778904cc40290b18da01c6cf5bff74594cb3b2fc4d0a353acf.webp" alt="" />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse className='ms-auto' id="basic-navbar-nav">
           <Nav className=" ms-auto items gap-4">
             <Navmodals content="Artificial Intelligence"/>
             <Navmodals content="Services"/>
