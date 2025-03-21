@@ -5,6 +5,7 @@ import About from './components/About'
 import Explore from './components/Explore'
 import Services from './components/Services'
 import Projects from './components/projects'
+import Clients from './components/Clients'
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Explore/>
       <Services/>
       <Projects/>
+      <Clients/>
     </div>
   )
 }
