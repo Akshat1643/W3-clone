@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 const Connect = () => {
   return (
     <section className='container-fluid mt-5  py-5 '>
-        <div className="container border p-1 ">
+        <div className="container border p-2 ">
             <div className='d-flex '>
                 <div className="connect_left  d-flex flex-column gap-3 pb-3 ">
                 <h3 className="text-primary">Let's Connect!</h3>
@@ -20,22 +20,22 @@ const Connect = () => {
                 <div className="connect_right bg-light p-5  d-flex flex-column justify-content-between  ">
                     <div className='d-flex justify-content-between gap-5'>
                         <div className='full_name '>
-                            <input className='py-2 border-0 shadow px-2' type="text" placeholder='Full Name' />
+                        <label htmlFor="">Full Name</label><input className='py-2 border-0 px-2' type="text" placeholder='' />
                         </div>
                         <div className='full_name'>
-                        <input  className='py-2 border-0 shadow px-2' type="email" placeholder='Email' />
+                        <label htmlFor="">Email</label> <input  className='py-2 border-0 px-2' type="email" placeholder='' />
                         </div>
                     </div>
                     <div className='d-flex justify-content-between gap-5'>
                     <div className='full_name'>
-                            <input  className='py-2 border-0 shadow px-2' type="text" placeholder='Full Name' />
+                    <label htmlFor="">Country</label><input  className='py-2 border-0 px-2' type="text"  />
                         </div>
                         <div className='full_name'>
-                        <input  className='py-2 border-0 shadow px-2' type="email" placeholder='Email' />
+                        <label htmlFor="">Contact</label> <input  className='py-2 border-0 px-2' type="email"  />
                         </div>
                     </div>
                     <div className=' connect_form_input '>
-                        <input className='py-2 border-0 shadow px-2' type="text" placeholder='Message' />
+                       <label htmlFor="">Message</label> <input className='pb-5 border-0 ' type="text"  />
                     </div>
                     <div className='text-center '>
                     <Button className='px-5' variant="primary">SUBMIT</Button>
